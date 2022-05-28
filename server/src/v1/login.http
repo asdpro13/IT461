@@ -1,4 +1,4 @@
-@host = http://127.0.0.1:6000/v1
+@host = http://127.0.0.1:8080/v1
 
 
 ### Login
@@ -6,8 +6,8 @@ POST {{host}}/login HTTP/1.1
 Content-Type: application/json
 
 {
-  "username": "admin",
-  "password": "admin"
+  "username": "joshua",
+  "password": "manigos"
 }
 
 
